@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Your Fortune</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
+/* style.css - Only CSS below */
         body.home {
             min-height: 100vh;
             margin: 0;
@@ -203,49 +196,4 @@
             80% { transform: scale(0.9);}
             100% { transform: scale(1);}
         }
-    </style>
-</head>
-<body class="cookie-page">
-    <div class="container">
-        <img id="cookieImage" src="cookie.png" alt="Fortune Cookie" class="cookie-img">
-        <video id="cookieVideo" class="cookie-video" style="display:none;">
-            <source src="animation.mp4" type="video/mp4">
-        </video>
-        <p id="fortuneMessage" class="fortune-message" style="display:none;"></p>
-        <button id="backBtn" class="oncemore-btn" style="display:none;" onclick="window.location.href='index.html'">Once More</button>
-    </div>
-
-    <script>
-        const fortunes = [
-            "You will find money... in your old jeans pocket.",
-            "Your crush just liked your post… by mistake.",
-            "Beware of pigeons with a mission.",
-            "A big surprise is coming… probably pizza.",
-            "Your Wi-Fi will betray you at 99% download.",
-            "You are the main character in someone’s meme."
-        ];
-
-        const cookieImage = document.getElementById('cookieImage');
-        const cookieVideo = document.getElementById('cookieVideo');
-        const fortuneMessage = document.getElementById('fortuneMessage');
-        const backBtn = document.getElementById('backBtn');
-
-        cookieImage.addEventListener('click', () => {
-            cookieImage.style.display = 'none';
-            cookieVideo.style.display = 'block';
-            cookieVideo.playbackRate = 2.0; // Increased speed (2x normal)
-            cookieVideo.play();
-
-            cookieVideo.onended = () => {
-                const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
-                fortuneMessage.textContent = randomFortune;
-                fortuneMessage.style.display = 'block';
-                fortuneMessage.classList.add('show');
-                const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
-                fortuneMessage.textContent = randomFortune;
-                fortuneMessage.style.display = 'block';
-                fortuneMessage.classList.add('show');
-                backBtn.style.display = 'block';
-            };
-        });
-    </script></body>cript></html></html>
+/* ...existing code... */
