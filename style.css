@@ -76,6 +76,7 @@
 
         .cookie-video {
             display: none;
+            /* Remove or comment out these lines to use original video size */
             width: 100%;
             height: auto;
         }
@@ -88,13 +89,14 @@
             opacity: 1;
             background: linear-gradient(135deg, #fffbe6 0%, #ffe29f 100%);
             box-shadow: 0 8px 32px rgba(255, 165, 0, 0.25);
-            padding: 35px 55px;
-            border-radius: 25px;
-            font-size: 2.2rem;
+            padding: 18px 30px; /* Smaller padding */
+            border-radius: 20px;
+            font-size: 1.5rem;
             color: #d2691e;
             display: block;
             text-align: center;
-            min-width: 350px;
+            min-width: 220px;   /* Smaller min-width */
+            max-width: 90%;     /* Responsive for longer messages */
             font-family: 'Pacifico', cursive;
             letter-spacing: 2px;
             background-image: linear-gradient(135deg, #fffbe6 0%, #ffe29f 100%), url('https://www.transparenttextures.com/patterns/glitter.png');
@@ -169,6 +171,23 @@
             background: linear-gradient(90deg, #ffcc33 0%, #ffb347 100%);
         }
 
+        .tap-message {
+            text-align: center;
+            margin-top: 18px;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+            color: #d2691e;
+            font-family: 'Pacifico', cursive;
+            background: linear-gradient(90deg, #fffbe6 0%, #ffe29f 100%);
+            padding: 8px 22px;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(255, 165, 0, 0.10);
+            display: block;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         /* Animations */
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -189,7 +208,7 @@
 <body class="cookie-page">
     <div class="container">
         <img id="cookieImage" src="cookie.png" alt="Fortune Cookie" class="cookie-img">
-        <video id="cookieVideo" class="cookie-video" width="800" height="800" style="display:none;">
+        <video id="cookieVideo" class="cookie-video" style="display:none;">
             <source src="animation.mp4" type="video/mp4">
         </video>
         <p id="fortuneMessage" class="fortune-message" style="display:none;"></p>

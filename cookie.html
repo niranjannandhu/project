@@ -1,4 +1,4 @@
-o<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@ o<!DOCTYPE html>
 <body class="cookie-page">
     <div class="container">
         <img id="cookieImage" src="cookie.png" alt="Fortune Cookie" class="cookie-img">
+        <div id="tapMessage" class="tap-message">Tap to reveal</div>
         <video id="cookieVideo" class="cookie-video" width="800" height="800" style="display:none;">
             <source src="animation.mp4" type="video/mp4">
         </video>
@@ -18,10 +19,11 @@ o<!DOCTYPE html>
     </div>
     <script>
         const fortunes = [
-            "You will find money... in your old jeans pocket.",
+            "You will live forever....in embarrassing Screenshots.",
             "Your crush just liked your post… by mistake.",
-            "Beware of pigeons with a mission.",
-            "A big surprise is coming… probably pizza.",
+            "your future is bright...until the power goes out.",
+            "some one is thinking about you....probabily swiggy.",
+            "you will be rich....in useless knowledge.",
             "Your Wi-Fi will betray you at 99% download.",
             "You are the main character in someone’s meme."
         ];
@@ -30,11 +32,13 @@ o<!DOCTYPE html>
         const cookieVideo = document.getElementById('cookieVideo');
         const fortuneMessage = document.getElementById('fortuneMessage');
         const backBtn = document.getElementById('backBtn');
+        const tapMessage = document.getElementById('tapMessage');
 
         cookieImage.addEventListener('click', () => {
             cookieImage.style.display = 'none';
+            tapMessage.style.display = 'none'; // Hide tap message
             cookieVideo.style.display = 'block';
-            cookieVideo.playbackRate = 2.0; // Increased speed (2x normal)
+            cookieVideo.playbackRate = 2.0;
             cookieVideo.play();
 
             cookieVideo.onended = () => {
