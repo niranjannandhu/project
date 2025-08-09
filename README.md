@@ -1,96 +1,65 @@
-<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
+teamm members niranjan<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Fortune Cookie 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Mist
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
-
+Niranjan S (GEC Kozhikode)
+Keerthana MN (GEC Kozhikode)
 ### Project Description
-[2-3 lines about what your project does]
+Fortune Cookie is a fun web app that displays a random fortune message each time you open a virtual cookie. Users can interact with the animation, receive motivational or humorous fortunes, and share their results. The project combines playful design with simple interactivity to bring smiles and inspiration to users.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People everywhere are suffering from a lack of daily surprises and smiles. Opening a real fortune cookie is rare, and motivational messages are hard to come by in a fun way. How can we bring a little joy and randomness to everyone’s day, anytime, anywhere?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We created a virtual fortune cookie that anyone can open with a click! Our web app delivers random, uplifting, or funny fortunes with a delightful animation, making every visit a new experience. Now, everyone can enjoy a daily dose of surprise and positivity—no bakery required!
 
 ## Technical Details
 ### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+**Languages used:** HTML, CSS, JavaScript
+**Frameworks used:** None (vanilla web technologies)
+**Libraries used:** None (custom code)
+**Tools used:** VS Code, browser for testing, online image editor for assets
 
 ### Implementation
-For Software:
-# Installation
-[commands]
 
-# Run
-[commands]
+You can access the project online here: [Fortune Cookie Web App](https://niranjannandhu.github.io/project/cookie.html)
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](https://niranjannandhu.github.io/project/screenshot1.png)
+*This screenshot shows the main interface of the Fortune Cookie web app. Users are greeted with a friendly message, "Crack the Cookie, Reveal Your Fortune!" and a prominent button to open the cookie and receive a random fortune. The design features a warm, inviting color scheme and a clean, centered layout for an engaging user experience.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](https://niranjannandhu.github.io/project/screenshot2.png)
+*This screenshot displays the fortune cookie graphic before it is cracked. The cookie features a friendly, smiling face and playful chocolate chips, inviting users to tap and reveal their fortune. The design emphasizes approachability and fun, making the interaction visually engaging and enjoyable.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3](https://niranjannandhu.github.io/project/screenshot3.png)
+*This screenshot captures the moment after the cookie is cracked, revealing a fortune message: "some one is thinking about you....probably swiggy." The glowing effect highlights the surprise and delight of receiving a random fortune, and the "Once More" button encourages users to interact again for a new message.*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![Workflow](https://niranjannandhu.github.io/project/workflow.png)
+*This workflow diagram illustrates the user journey in the Fortune Cookie web app: starting from the welcome screen, the user clicks to open the cookie, triggering an animation and revealing a random fortune message. The process can be repeated for new fortunes, creating an engaging and interactive experience.*
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[![Demo Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+*This video demonstrates the Fortune Cookie web app in action, showing the user journey from opening the cookie to receiving a random fortune and interacting with the interface.*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+Niranjan S: Developed the main web app interface, implemented fortune message logic, and designed the workflow diagram.
+Keerthana MN: Created the cookie graphics, contributed to UI/UX design, and helped write project documentation.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
